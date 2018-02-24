@@ -5,7 +5,8 @@
   "author": "Hendri Pretorius",
   "license": "MIT",
   "scripts": {
-    "babel": "babel src -d dist/",
+    "tsc": "tsc",
+    "babel": "babel dist/ -d dist/",
     "bundle": "browserify dist/index.js -o dist/bundle.js"
   },
   "dependencies": {
@@ -13,9 +14,12 @@
     "react-dom": "16.2.0"
   },
   "devDependencies": {
+    "@types/react": "16.0.38",
+    "@types/react-dom": "16.0.4",
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
-    "browserify": "16.1.0"
+    "browserify": "16.1.0",
+    "typescript": "2.7.2"
   }
 }
