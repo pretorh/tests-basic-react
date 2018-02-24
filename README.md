@@ -39,6 +39,10 @@ Setup a react site from scratch
 - index.prod.html is copy of normal index, but with this cdn and the prod bundle
 - build prod releases with bundle-prod (instead of bundle)
 
+### browserify build.js file
+
+- create a file to handle the browserify building
+
 #### links
 
 - https://reactjs.org/docs/add-react-to-an-existing-app.html

@@ -10,8 +10,8 @@
     "tsc": "tsc",
     "babel": "babel dist/ -d dist/",
     "postbabel": "cp src/*.css dist/",
-    "bundle": "browserify -t browserify-css dist/index.js -o dist/bundle.js",
-    "bundle-prod": "NODE_ENV=production browserify -t browserify-css -t browserify-shim -g envify -g uglifyify dist/index.js | uglifyjs --compress --mangle > dist/bundle.prod.js"
+    "bundle": "node build.js > dist/bundle.js",
+    "bundle-prod": "NODE_ENV=production node build.js | uglifyjs --compress --mangle > dist/bundle.prod.js"
   },
   "browserify-shim": {
     "react": "global:React",
