@@ -35,6 +35,8 @@ Setup a react site from scratch
 ### setup prod
 
 - install envify, uglifyify, uglify-js
+- use cdns for react
+- index.prod.html is copy of normal index, but with this cdn and the prod bundle
 - build prod releases with bundle-prod (instead of bundle)
 
 #### links
