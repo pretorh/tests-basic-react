@@ -25,6 +25,13 @@ Setup a react site from scratch
 - extract `lib/hello.ts` file
 - building: same as above, but lint as first command
 
+### styling
+
+- install browserify-css
+- add simple app.cs with basic styling
+- change output paths
+- same build (but with `-t browserify-css` option for browserify)
+
 #### links
 
 - https://reactjs.org/docs/add-react-to-an-existing-app.html
