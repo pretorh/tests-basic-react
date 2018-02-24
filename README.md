@@ -32,6 +32,11 @@ Setup a react site from scratch
 - change output paths
 - same build (but with `-t browserify-css` option for browserify)
 
+### setup prod
+
+- install envify, uglifyify, uglify-js
+- build prod releases with bundle-prod (instead of bundle)
+
 #### links
 
 - https://reactjs.org/docs/add-react-to-an-existing-app.html
