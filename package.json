@@ -8,8 +8,7 @@
     "clean": "rm -rf ./dist/",
     "lint": "tslint src/*.ts* src/**/*.ts",
     "tsc": "tsc",
-    "babel": "babel dist/ -d dist/",
-    "postbabel": "cp src/*.css dist/",
+    "posttsc": "cp src/*.css dist/",
     "bundle": "node build.js > dist/bundle.js",
     "bundle-prod": "NODE_ENV=production node build.js | uglifyjs --compress --mangle > dist/bundle.prod.js"
   },
@@ -24,9 +23,6 @@
   "devDependencies": {
     "@types/react": "16.0.38",
     "@types/react-dom": "16.0.4",
-    "babel-cli": "6.26.0",
-    "babel-preset-env": "1.6.1",
-    "babel-preset-react": "6.24.1",
     "browserify": "16.1.0",
     "browserify-css": "0.14.0",
     "browserify-shim": "3.8.14",

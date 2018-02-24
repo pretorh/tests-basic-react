@@ -44,6 +44,10 @@ Setup a react site from scratch
 - create a file to handle the browserify building
 - split css out into own minified file in prod builds
 
+### remove babel
+
+- make tsc output js files directly (save a lot of packages)
+
 #### links
 
 - https://reactjs.org/docs/add-react-to-an-existing-app.html
