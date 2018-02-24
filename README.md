@@ -22,6 +22,7 @@ Setup a react site from scratch
 ### More files, linting
 
 - Install tslint
+- extract `lib/hello.ts` file
 - building: same as above, but lint as first command
 
 #### links
