@@ -19,6 +19,11 @@ Setup a react site from scratch
 - babel not really needed anymore, since tsc can convert tsx -> jsx directly
 - build using tsc, babel, then browserify
 
+### More files, linting
+
+- Install tslint
+- building: same as above, but lint as first command
+
 #### links
 
 - https://reactjs.org/docs/add-react-to-an-existing-app.html

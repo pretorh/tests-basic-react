@@ -5,6 +5,7 @@
   "author": "Hendri Pretorius",
   "license": "MIT",
   "scripts": {
+    "lint": "tslint src/*.ts* src/**/*.ts",
     "tsc": "tsc",
     "babel": "babel dist/ -d dist/",
     "bundle": "browserify dist/index.js -o dist/bundle.js"
@@ -20,6 +21,7 @@
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
     "browserify": "16.1.0",
+    "tslint": "5.9.1",
     "typescript": "2.7.2"
   }
 }
