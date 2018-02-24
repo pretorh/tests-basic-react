@@ -3,5 +3,19 @@
   "version": "1.0.0",
   "description": "Setup a react site from scratch",
   "author": "Hendri Pretorius",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "babel": "babel src -d dist/",
+    "bundle": "browserify dist/index.js -o dist/bundle.js"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "browserify": "16.1.0"
+  }
 }
