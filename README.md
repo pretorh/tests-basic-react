@@ -42,6 +42,7 @@ Setup a react site from scratch
 ### browserify build.js file
 
 - create a file to handle the browserify building
+- split css out into own minified file in prod builds
 
 #### links
 
